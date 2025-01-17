@@ -1,0 +1,461 @@
+{
+    "basics": {
+        "name": "Andries Van Humbeeck",
+        "label": "Senior Software & Data Engineer",
+        "image": "",
+        "email": "",
+        "phone": "",
+        "url": "https://codemine.be",
+        "summary": "Experienced Software Engineer in multiple domains. Full-stack software development, data engineering and DevOps. Have been through many different technologies and methodologies. Always eager to learn new things and improve myself.",
+        "theme": "default",
+        "location": {
+            "address": "",
+            "postalCode": "3020",
+            "city": "Herent",
+            "countryCode": "BE",
+            "region": "Belgium"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "Andries Van Humbeeck",
+                "url": "https://www.linkedin.com/in/andries-v-790b1059/"
+            },
+            {
+                "network": "GitHub",
+                "username": "vanhumbeecka",
+                "url": "https://github.com/vanhumbeecka"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "PlayStation (Sony)",
+            "position": "Senior Data Engineer",
+            "location_type": "Hybrid",
+            "location": null,
+            "url": null,
+            "startDate": "2021-08-01",
+            "endDate": null,
+            "summary": "Supporting the Data Science Team in managing and running ML models.",
+            "highlights": [],
+            "skills": [
+                "AWS",
+                "Snowflake",
+                "Python",
+                "Terraform"
+            ]
+        },
+        {
+            "name": "ScaledAccess",
+            "position": "DevOps / Full-Stack Engineer",
+            "location_type": "Hybrid",
+            "location": null,
+            "url": null,
+            "startDate": "2019-09-01",
+            "endDate": "2021-06-01",
+            "summary": "Built access solutions for SME and enterprise authentication and authorization.",
+            "highlights": [],
+            "skills": [
+                "AWS",
+                "Vue.js",
+                "Nest.js",
+                "Okta"
+            ]
+        },
+        {
+            "name": "Konsolidate",
+            "position": "SOLID Full-Stack Engineer (half-time)",
+            "location_type": null,
+            "location": null,
+            "url": "https://www.konsolidate.eu/stories/building-a-survey-application-with-personal-data-vaults-solid-project",
+            "startDate": "2021-02-01",
+            "endDate": "2021-04-01",
+            "summary": "Researched the technical feasibility of the new SOLID(project) technology and supported interns in their first steps working with this technology.",
+            "highlights": [],
+            "skills": [
+                "SOLID Protocol",
+                "React",
+                "TypeScript",
+                "AWS Lambda",
+                "Docker",
+                "RDF",
+                "Node.js"
+            ]
+        },
+        {
+            "name": "Terra Platform & Energie-Efficiëntie Portaal",
+            "position": "Full-Stack Developer & DevOps",
+            "location_type": "On-site",
+            "location": null,
+            "url": null,
+            "startDate": "2018-09-01",
+            "endDate": "2019-09-01",
+            "summary": "Built and maintained applications for managing enterprise energy consumption and supporting subsidy requests.",
+            "highlights": [],
+            "skills": [
+                "Angular 2.X",
+                "AWS Elastic Beanstalk",
+                "ASP.NET Core 2.X WebApi",
+                "ACM/IDM Idp",
+                "MSSQL (AWS RDS)",
+                "Tableau",
+                "DDD & Event Sourcing"
+            ]
+        },
+        {
+            "name": "TheLedger",
+            "position": "Co-founder",
+            "location_type": null,
+            "location": null,
+            "url": null,
+            "startDate": "2017-05-01",
+            "endDate": "2018-09-01",
+            "summary": "Managed and co-founded TheLedger, helping customers explore blockchain technologies to support their businesses.",
+            "highlights": [],
+            "skills": [
+                "MS Azure",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "Hyperledger Fabric",
+                "Ethereum",
+                "Node.js",
+                "React",
+                "TypeScript",
+                "Solidity",
+                "Golang"
+            ]
+        },
+        {
+            "name": "Wolters Kluwer Collaboration Portal",
+            "position": "Development, Technical Architect",
+            "location_type": null,
+            "location": null,
+            "url": null,
+            "startDate": "2016-07-01",
+            "endDate": "2017-04-01",
+            "summary": "Developed Wolters Kluwer's Collaboration Portal, enabling tax advisors to collaborate with customers through document sharing, communication tools, and integration with tax software.",
+            "highlights": [],
+            "skills": [
+                "ASP.NET WebApi",
+                "Chromium Embedded Framework",
+                "MSSQL",
+                "MS Azure",
+                "AngularJS"
+            ]
+        },
+        {
+            "name": "bpost",
+            "position": "Full-Stack Mobile Developer",
+            "location_type": null,
+            "location": null,
+            "url": "https://press.bpost.be/bpost-lanceert-bringr-een-applicatie-om-goederen-te-versturen-via-een-deelplatform",
+            "startDate": "2016-02-01",
+            "endDate": "2016-09-01",
+            "summary": "Developed a mobile app for package delivery by and for individuals, contributing to the sharing economy.",
+            "highlights": [],
+            "skills": [
+                "AngularJS",
+                "Ionic 1.X",
+                "PhoneGap & Cordova",
+                "XCode",
+                "Node.js",
+                "MongoDB",
+                "MS Azure",
+                "Neo4J",
+                "Mapbox"
+            ]
+        },
+        {
+            "name": "Sk!lld",
+            "position": "Full-Stack Web Developer",
+            "location_type": null,
+            "location": null,
+            "url": null,
+            "startDate": "2015-10-01",
+            "endDate": "2016-01-01",
+            "summary": "Developed an in-house talent management platform to support the sales department with resource allocation.",
+            "highlights": [],
+            "skills": [
+                "AngularJS",
+                "Neo4J",
+                "Node.js"
+            ]
+        },
+        {
+            "name": "c-Quilibrium Cash-Management Platform",
+            "position": "Full-Stack Web Developer & Data Forecaster",
+            "location_type": null,
+            "location": null,
+            "url": null,
+            "startDate": "2014-10-01",
+            "endDate": "2015-12-01",
+            "summary": "Developed software for cash-flow management for financial institutions.",
+            "highlights": [],
+            "skills": [
+                "ASP.NET MVC & WebApi",
+                "KendoUI",
+                "jQuery",
+                "MSSQL",
+                "R"
+            ]
+        },
+        {
+            "name": "De Watergroep",
+            "position": "Process Engineer",
+            "location_type": null,
+            "location": null,
+            "url": null,
+            "startDate": "2013-02-01",
+            "endDate": "2014-10-01",
+            "summary": "Modeled, simulated, and calibrated results for drinking water networks across Flanders.",
+            "highlights": [],
+            "skills": [
+                "InfoWorks",
+                "HTML & CSS",
+                "R"
+            ]
+        },
+        {
+            "name": "HydroScan",
+            "position": "Project Engineer",
+            "location_type": null,
+            "location": null,
+            "url": null,
+            "startDate": "2010-09-01",
+            "endDate": "2011-09-01",
+            "summary": "Designed, modeled, and simulated sewage system layouts.",
+            "highlights": [],
+            "skills": [
+                "InfoWorks",
+                "ArcGIS",
+                "Python"
+            ]
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "KULeuven",
+            "url": null,
+            "area": "Civil Engineering",
+            "studyType": "Bachelor & Master",
+            "startDate": "2005-09-01",
+            "endDate": "2010-06-01",
+            "score": null,
+            "courses": [
+                "Thesis subject: 3D simulation of flow in a whitewater course"
+            ]
+        },
+        {
+            "institution": "KULeuven",
+            "url": null,
+            "area": "Informatics",
+            "studyType": "Bachelor",
+            "startDate": "2011-09-01",
+            "endDate": "2012-06-01",
+            "score": null,
+            "courses": [
+                "Lego Mindstorms project using Java and RabbitMQ"
+            ]
+        },
+        {
+            "institution": "KULeuven",
+            "url": null,
+            "area": "Artificial Intelligence",
+            "studyType": "Master",
+            "startDate": "2021-09-01",
+            "endDate": "2024-06-01",
+            "score": null,
+            "courses": []
+        }
+    ],
+    "certificates": [],
+    "skills": [
+        {
+            "name": "Programming Languages",
+            "keywords": [
+                "TypeScript",
+                "JavaScript",
+                "Python",
+                "Java",
+                "C#",
+                "R",
+                "Go",
+                "Bash"
+            ]
+        },
+        {
+            "name": "Web Technologies & Frameworks",
+            "keywords": [
+                "HTML",
+                "Node.js",
+                "React",
+                "Angular",
+                "Vue.js",
+                "ASP.NET Core",
+                "Cordova",
+                "Ionic"
+            ]
+        },
+        {
+            "name": "Databases",
+            "keywords": [
+                "DynamoDB",
+                "MySQL",
+                "MSSQL",
+                "Snowflake",
+                "MongoDB",
+                "Neo4J",
+                "Sqlite"
+            ]
+        },
+        {
+            "name": "Data & AI",
+            "keywords": [
+                "DataRobot",
+                "PyTorch",
+                "scikit-learn",
+                "Hadoop",
+                "Apache Flink"
+            ]
+        },
+        {
+            "name": "Identity Management",
+            "keywords": [
+                "OAuth2",
+                "OpenID Connect",
+                "Auth0",
+                "Okta"
+            ]
+        },
+        {
+            "name": "Testing & Code Quality",
+            "keywords": [
+                "Jest",
+                "Mocha",
+                "Chai",
+                "JUnit",
+                "XUnit (.NET)",
+                "Cypress",
+                "SonarQube"
+            ]
+        },
+        {
+            "name": "Cloud & DevOps",
+            "keywords": [
+                "Git",
+                "Docker",
+                "Kubernetes",
+                "Terraform",
+                "Nginx",
+                "Jenkins",
+                "Bitbucket Pipelines",
+                "Azure DevOps",
+                "AWS",
+                "Google Cloud"
+            ]
+        },
+        {
+            "name": "Methodology",
+            "keywords": [
+                "Agile",
+                "Scrum",
+                "Kanban",
+                "Rest API Design",
+                "CQRS",
+                "Event Sourcing",
+                "Domain Driven Design"
+            ]
+        },
+        {
+            "name": "Blockchain Technologies",
+            "keywords": [
+                "Hyperledger Fabric",
+                "Ethereum",
+                "Solidity"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Dutch",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        },
+        {
+            "language": "French",
+            "fluency": "Intermediate"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Sports",
+            "keywords": [
+                "Rugby",
+                "Swimming",
+                "Cycling"
+            ]
+        },
+        {
+            "name": "Other",
+            "keywords": [
+                "Boardgames",
+                "Reading",
+                "Playing drums",
+                "Videogames"
+            ]
+        }
+    ],
+    "references": [],
+    "publications": [
+        {
+            "name": "The Blockchain-GDPR paradox",
+            "publisher": "henrystewartpublications",
+            "releaseDate": "2018",
+            "url": "https://www.henrystewartpublications.com/jdpp/v2",
+            "summary": ""
+        }
+    ],
+    "awards": [
+        {
+            "title": "Runner-up \"Feeding the future\"-track with TheLedger",
+            "date": "2019-04",
+            "awarder": "Odyssey hackathon",
+            "summary": "Hackathon with a focus on blockchain technologies."
+        },
+        {
+            "title": "Winning team \"Digital Nation's Infrastructure\" track with TheLedger",
+            "date": "2018-04",
+            "awarder": "Blockchaingers hackathon",
+            "summary": "Hackathon with a focus on blockchain technologies. https://medium.com/wearetheledger/what-weve-built-to-win-the-worlds-biggest- blockchain-hackathon-of-2018-ea01decfd60c"
+        },
+        {
+            "title": "Winning team “Wunderteam” at the Wolters Kluwer Code Games Hackathon",
+            "date": "2017-08",
+            "awarder": "Wolters Kluwer",
+            "summary": "https://www.contribute-group.be/ux-consultant-pim-over-innovatie-bij-wolters-kluwer/"
+        },
+        {
+            "title": "Winning team at the AE Hackathon 2016",
+            "date": "2016",
+            "awarder": "AE",
+            "summary": "https://www.youtube.com/watch?v=UZKf3K-SES8"
+        }
+    ],
+    "projects": [
+        {
+            "name": "GeoForms",
+            "isActive": false,
+            "description": "A side project creating dynamic forms for capturing geospatial data related questions.",
+            "highlights": [
+                "A side project creating dynamic forms for capturing geospatial data related questions."
+            ],
+            "url": "https://www.youtube.com/watch?v=I3CdFrmkCbw"
+        }
+    ]
+}
