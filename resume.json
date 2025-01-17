@@ -245,7 +245,7 @@
             "endDate": "2010-06-01",
             "score": null,
             "courses": [
-                "Thesis subject: 3D simulation of flow in a whitewater course"
+                "Thesis: 3D simulation of flow in a whitewater course using CFD software"
             ]
         },
         {
@@ -257,7 +257,7 @@
             "endDate": "2012-06-01",
             "score": null,
             "courses": [
-                "Lego Mindstorms project using Java and RabbitMQ"
+                "Bachelor project: Building and programming a Lego Mindstorms robot using Java and RabbitMQ"
             ]
         },
         {
@@ -268,7 +268,9 @@
             "startDate": "2021-09-01",
             "endDate": "2024-06-01",
             "score": null,
-            "courses": []
+            "courses": [
+                "Thesis: Autoencoding of solar images and generation of artificial active regions"
+            ]
         }
     ],
     "certificates": [],
@@ -295,6 +297,7 @@
                 "Angular",
                 "Vue.js",
                 "ASP.NET Core",
+                "Java Spring Boot",
                 "Cordova",
                 "Ionic"
             ]
@@ -316,6 +319,7 @@
             "keywords": [
                 "DataRobot",
                 "PyTorch",
+                "TensorFlow",
                 "scikit-learn",
                 "Hadoop",
                 "Apache Flink"
@@ -352,9 +356,9 @@
                 "Nginx",
                 "Jenkins",
                 "Bitbucket Pipelines",
-                "Azure DevOps",
                 "AWS",
-                "Google Cloud"
+                "Google Cloud",
+                "Azure"
             ]
         },
         {
@@ -423,25 +427,25 @@
     ],
     "awards": [
         {
-            "title": "Runner-up \"Feeding the future\"-track with TheLedger",
+            "title": "Runner-up \"Feeding the future\"-track",
             "date": "2019-04",
             "awarder": "Odyssey hackathon",
             "summary": "Hackathon with a focus on blockchain technologies."
         },
         {
-            "title": "Winning team \"Digital Nation's Infrastructure\" track with TheLedger",
+            "title": "Winning team \"Digital Nation's Infrastructure\" track",
             "date": "2018-04",
             "awarder": "Blockchaingers hackathon",
             "summary": "Hackathon with a focus on blockchain technologies. https://medium.com/wearetheledger/what-weve-built-to-win-the-worlds-biggest- blockchain-hackathon-of-2018-ea01decfd60c"
         },
         {
-            "title": "Winning team “Wunderteam” at the Wolters Kluwer Code Games Hackathon",
+            "title": "Winning team at the Wolters Kluwer Code Games Hackathon",
             "date": "2017-08",
             "awarder": "Wolters Kluwer",
             "summary": "https://www.contribute-group.be/ux-consultant-pim-over-innovatie-bij-wolters-kluwer/"
         },
         {
-            "title": "Winning team at the AE Hackathon 2016",
+            "title": "Winning team at the AE Hackathon",
             "date": "2016",
             "awarder": "AE",
             "summary": "https://www.youtube.com/watch?v=UZKf3K-SES8"
