@@ -35,8 +35,6 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install
         run: npm install
-      - name: Clean
-        run
       - name: Build
         run: npx resume-cli export build/index.html --theme .
       - name: Upload artifact
