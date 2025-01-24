@@ -4,7 +4,7 @@
   "description": "Stack Overflow theme for JSON Resume",
   "author": "Francesco Esposito",
   "scripts": {
-    "start": "resume-cli serve --theme .",
+    "start": "npx resume-cli serve --theme .",
     "test": "jest --coverage --verbose",
     "updateTestSnapshots": "jest --updateSnapshot"
   },

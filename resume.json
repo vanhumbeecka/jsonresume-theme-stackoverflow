@@ -128,7 +128,7 @@
             ]
         },
         {
-            "name": "Wolters Kluwer Collaboration Portal",
+            "name": "Wolters Kluwer",
             "position": "Development, Technical Architect",
             "location_type": null,
             "location": null,
@@ -168,23 +168,7 @@
             ]
         },
         {
-            "name": "Sk!lld",
-            "position": "Full-Stack Web Developer",
-            "location_type": null,
-            "location": null,
-            "url": null,
-            "startDate": "2015-10-01",
-            "endDate": "2016-01-01",
-            "summary": "Developed an in-house talent management platform to support the sales department with resource allocation.",
-            "highlights": [],
-            "skills": [
-                "AngularJS",
-                "Neo4J",
-                "Node.js"
-            ]
-        },
-        {
-            "name": "c-Quilibrium Cash-Management Platform",
+            "name": "c-Quilibrium",
             "position": "Full-Stack Web Developer & Data Forecaster",
             "location_type": null,
             "location": null,
@@ -202,13 +186,34 @@
             ]
         },
         {
+            "name": "AE",
+            "position": "Technical IT Consultant",
+            "location_type": null,
+            "location": null,
+            "url": null,
+            "startDate": "2014-09-01",
+            "endDate": "2017-05-01",
+            "summary": "Technical Consultant at AE, developing web applications for customers.",
+            "highlights": [
+                "Full-stack developer & data analist at c-Quilibrium.",
+                "Mobile app & backend developer at bpost.",
+                "Developed an in-house talent management platform to support the sales department with resource allocation.",
+                "Full-stack developer at Wolters Kluwer."
+            ],
+            "skills": [
+                "AngularJS",
+                "Neo4J",
+                "Node.js"
+            ]
+        },
+        {
             "name": "De Watergroep",
             "position": "Process Engineer",
             "location_type": null,
             "location": null,
             "url": null,
             "startDate": "2013-02-01",
-            "endDate": "2014-10-01",
+            "endDate": "2014-09-01",
             "summary": "Modeled, simulated, and calibrated results for drinking water networks across Flanders.",
             "highlights": [],
             "skills": [
