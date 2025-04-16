@@ -30,13 +30,30 @@
     },
     "work": [
         {
+            "name": "Karomia",
+            "position": "Tech Lead & Data Engineering",
+            "location_type": "Hybrid",
+            "location": null,
+            "url": null,
+            "startDate": "2021-04-14",
+            "endDate": null,
+            "summary": "Automating CSRD reporting for SMEs and large enterprises.",
+            "highlights": [],
+            "skills": [
+                "AWS",
+                "Snowflake",
+                "Python",
+                "Terraform"
+            ]
+        },
+        {
             "name": "PlayStation (Sony)",
             "position": "Senior Data Engineer",
             "location_type": "Hybrid",
             "location": null,
             "url": null,
             "startDate": "2021-08-01",
-            "endDate": null,
+            "endDate": "2025-03-30",
             "summary": "Supporting the Data Science Team in managing and running ML models.",
             "highlights": [],
             "skills": [
