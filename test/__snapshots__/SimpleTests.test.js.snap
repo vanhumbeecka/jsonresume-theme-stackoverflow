@@ -2,12 +2,12 @@
 
 exports[`SimpleTests If current rendered HTML has changed from previous taken snapshot 1`] = `
 "<!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Richard Hendriks</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <style>
       /********************************************
 * 	reset from
@@ -193,10 +193,6 @@ em {
   color: #757575;
 }
 
-blockquote {
-  margin-bottom: 1em;
-}
-
 strong {
   font-weight: 700;
 }
@@ -225,6 +221,10 @@ section .location {
 
 #profiles .item {
   padding: 0;
+}
+
+#header {
+  margin-bottom: 1rem;
 }
 
 #header > #profiles,
@@ -269,10 +269,13 @@ section .location {
   border-radius: 4px;
 }
 
+.section.summary header {
+  margin-top: 1rem;
+}
+
 .main-summary {
   background: #f1f8ff;
   padding: 1.2em 1em;
-  margin-top: 1rem;
 }
 
 .main-summary p {
@@ -572,6 +575,7 @@ section .location {
 
 #references .item {
   padding-left: 0.5em;
+  margin-bottom: 1em;
   border-left: 5px solid #ff6d1f;
 }
 
@@ -655,6 +659,12 @@ section .location {
   #profiles a:not(.hide-href-print)::after{
     content: " (" attr(href) ") ";
   }
+  #profiles .url .show-only-url-print {
+    display: none;
+  }
+  #profiles .url a::after {
+    content: attr(href);
+  }
   #resume {
     margin: 0.1em;
     padding: 0.1em;
@@ -667,6 +677,9 @@ section .location {
   }
   .item-count {
     display: none;
+  }
+  .company a {
+    color: #40484f;
   }
   .company::before,
   .institution::before,
@@ -689,7 +702,8 @@ section .location {
     padding-bottom: 0.15rem;
   }
   .section > section > section {
-    margin: 0 0 1em 0;
+    border-bottom: 1px solid #fdfdfd;
+    margin: .5em 0;
   }
   .section > section > section:last-of-type {
     margin: 0;
@@ -717,7 +731,7 @@ section .location {
   ul.keywords li::after,
   ul.courses li::after {
     padding: 0 0 0 0.1rem;
-    content: " |";
+    content: ", ";
   }
   ul.keywords::before,
   ul.courses::before {
@@ -725,14 +739,28 @@ section .location {
     font-weight: 600;
   }
   #skills .item {
-    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem 0;
     padding: 0;
+  }
+  #skills .level {
+    margin: 0.1rem 0;
+    font-weight: 400;
+  }
+  #skills .keywords {
+    font-size: 0.9rem;
+    margin: 0;
   }
   .highlights {
     margin: 0.5em 0 0 0;
   }
+  .highlights > li > p {
+    margin-bottom: 0.3em;
+  }
   ul.keywords::before {
-    content: "Skills acquired: ";
+    content: "Skills: ";
+    font-size: 1rem;
   }
   #skills .keywords::before {
     content: none;
@@ -743,6 +771,12 @@ section .location {
   }
   ul.courses::before {
     content: "Major courses: ";
+    font-size: 1rem;
+  }
+  ul.keywords li,
+  ul.courses li {
+    font-size: 1rem;
+    line-height: inherit;
   }
   ul.keywords li:last-of-type::after,
   ul.courses li:last-of-type::after {
@@ -782,7 +816,7 @@ section .location {
       			<span class="postalCode">CA 94115,</span>
       			<span class="city">San Francisco,</span>
       			<span class="region">California</span>
-      			<span class="countryCode">US</span>
+      			<span class="countryCode">(US)</span>
       		</span>
       
       
@@ -793,7 +827,7 @@ section .location {
       			</div>
       			<div class="phone">
       				<span class="fa-solid fa-mobile-screen-button"></span>
-      				<a class="hide-href-print" href="tel:(912) 555-4321">(912) 555-4321</a>
+      				<a class="hide-href-print" href="tel:(912) 555-4321">(912)&nbsp;555&#8209;4321</a>
       			</div>
       		</div>
       
@@ -802,7 +836,7 @@ section .location {
       				<div class="username">
       					<span class="fa-brands fa-twitter twitter social"></span>
       					<span class="url">
-      						<a target="_blank" href="https://www.twitter.com">neutralthoughts</a>
+      						<a target="_blank" href="https://www.twitter.com"><span class="show-only-url-print">neutralthoughts</span></a>
       					</span>
       				</div>
       			</div>
@@ -810,55 +844,57 @@ section .location {
       				<div class="username">
       					<span class="fa-brands fa-soundcloud soundcloud social"></span>
       					<span class="url">
-      						<a target="_blank" href="https://soundcloud.example.com/dandymusicnl">dandymusicnl</a>
+      						<a target="_blank" href="https://soundcloud.example.com/dandymusicnl"><span class="show-only-url-print">dandymusicnl</span></a>
       					</span>
       				</div>
       			</div>
       		</div>
       	</header>
       
-      	<section class="section">
+      	<section class="section summary">
+          <header>
+            <h2 class="section-title">summary</h2>
+          </header>
       		<section class="main-summary">
-      			<div><p><p>Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!</p></p></div>
+      			<div><p>Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!</p>
+      </div>
       		</section>
       	</section>
       
       <section class="section">
-      	<header>
-      		<h2 class='section-title'>Skills <span class="item-count">(2)</span></h2>
-      	</header>
-      	<section id="skills">
-      		<div class="item">
-      			<h3 class="name">
-      				Web Development
-      			</h3>
-      			 
-      			<div class="level master">
-      				<em>Master</em>
-      				<div class="bar"></div>
-      			</div>
-      			<ul class="keywords">
-      				<li>HTML</li>
-      				<li>CSS</li>
-      				<li>Javascript</li>
-      			</ul>
-      		</div>
-      		<div class="item">
-      			<h3 class="name">
-      				Compression
-      			</h3>
-      			 
-      			<div class="level master">
-      				<em>Master</em>
-      				<div class="bar"></div>
-      			</div>
-      			<ul class="keywords">
-      				<li>Mpeg</li>
-      				<li>MP4</li>
-      				<li>GIF</li>
-      			</ul>
-      		</div>
-      	</section>
+        <header>
+          <h2 class='section-title'>Skills</h2>
+        </header>
+        <section id="skills">
+          <div class="item">
+            <h3 class="name">
+              Web Development
+            </h3>
+              <div class="level master">
+                  <em>Master</em>
+                <div class="bar"></div>
+              </div>
+            <ul class="keywords">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3 class="name">
+              Compression
+            </h3>
+              <div class="level master">
+                  <em>Master</em>
+                <div class="bar"></div>
+              </div>
+            <ul class="keywords">
+              <li>Mpeg</li>
+              <li>MP4</li>
+              <li>GIF</li>
+            </ul>
+          </div>
+        </section>
       </section>
       <section class="section">
         <header>
@@ -884,11 +920,15 @@ section .location {
               <span class="fa-solid fa-up-right-from-square"></span>
               <a target="_blank" href="http://piedpiper.example.com">http://piedpiper.example.com</a>
             </span>        <div class="item" id="work-item">
-              <div class="summary"><p><p>Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.</p></p></div>
+              <div class="summary"><p>Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.</p>
+      </div>
               <ul class="highlights">
-                <li><p><p>Build an algorithm for artist to detect if their music was violating copy right infringement laws</p></p></li>
-                <li><p><p>Successfully won Techcrunch Disrupt</p></p></li>
-                <li><p><p>Optimized an algorithm that holds the current world record for Weisman Scores</p></p></li>
+                <li><p>Build an algorithm for artist to detect if their music was violating copy right infringement laws</p>
+      </li>
+                <li><p>Successfully won Techcrunch Disrupt</p>
+      </li>
+                <li><p>Optimized an algorithm that holds the current world record for Weisman Scores</p>
+      </li>
               </ul>
             </div>
           </section>
@@ -918,9 +958,12 @@ section .location {
             </ul>
             <div class="item">
               <ul class="highlights">
-                  <li><p><p>Won award at AIHacks 2016</p></p></li>
-                  <li><p><p>Built by all women team of newbie programmers</p></p></li>
-                  <li><p><p>Using modern technologies such as GoogleMaps, Chrome Extension and Javascript</p></p></li>
+                  <li><p>Won award at AIHacks 2016</p>
+      </li>
+                  <li><p>Built by all women team of newbie programmers</p>
+      </li>
+                  <li><p>Using modern technologies such as GoogleMaps, Chrome Extension and Javascript</p>
+      </li>
               </ul>
             </div>
           </section>
@@ -951,9 +994,11 @@ section .location {
              
             </header>
             <div class="item">
-              <div class="summary"><p><p>Global movement of free coding clubs for young people.</p></p></div>
+              <div class="summary"><p>Global movement of free coding clubs for young people.</p>
+      </div>
               <ul class="highlights">
-                <li><p><p>Awarded 'Teacher of the Month'</p></p></li>
+                <li><p>Awarded 'Teacher of the Month'</p>
+      </li>
               </ul>
             </div>
           </section>
@@ -1018,7 +1063,8 @@ section .location {
                 </header>
       
                 <div class="item">
-                    <div class="summary"><p><p>There is no spoon.</p></p></div>
+                    <div class="summary"><p>There is no spoon.</p>
+      </div>
                 </div>
               </section>
           </section>
@@ -1033,7 +1079,7 @@ section .location {
       
             <header class="clear">
               <span class="date">
-                1 Oct 2014
+                Oct 2014
               </span>
               <div class="header-left">
                 <span class="name">
@@ -1047,7 +1093,8 @@ section .location {
             </header>
       
             <div class="item">
-              <div class="summary"><p><p>Innovative middle-out compression algorithm that changes the way we store data.</p></p></div>
+              <div class="summary"><p>Innovative middle-out compression algorithm that changes the way we store data.</p>
+      </div>
             </div>
           </section>
         </section>
