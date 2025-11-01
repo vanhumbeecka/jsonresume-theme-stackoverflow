@@ -29,7 +29,8 @@
             {
                 "network": "markdown",
                 "username": "View as Markdown",
-                "url": "https://andries.codemine.be/resume.md"
+                "url": "https://andries.codemine.be/resume.md",
+                "local": true
             }
         ]
     },
