@@ -1,9 +1,5 @@
 # Stack Overflow theme for jsonresume [![npm version](https://badge.fury.io/js/jsonresume-theme-stackoverflow.svg)](http://badge.fury.io/js/jsonresume-theme-stackoverflow)
 
-**Printable version with custom CSS**
-
-[DEMO](https://francesco.netlify.app/)
-
 ## Getting started
 
 ### Install the command line
@@ -67,12 +63,6 @@ example of the extra `birth` object:
   "date": "1988"
 }
 ```
-
-## Contribution
-
-Fork the project, add your feature (or fix your bug) and open a pull request OR
-
-[Open an issue](https://github.com/phoinixi/jsonresume-theme-stackoverflow/issues/new) if you find find or if you would like to have extra fields or changes 
 
 ## License
 

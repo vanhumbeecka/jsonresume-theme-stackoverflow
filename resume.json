@@ -333,18 +333,23 @@
                 "Snowflake",
                 "MongoDB",
                 "Neo4J",
-                "Sqlite"
+                "Sqlite",
+                "PostgreSQL",
+                "Firestore",
+                "QDrant"
             ]
         },
         {
-            "name": "Data & AI",
+            "name": "Data Engineering & AI",
             "keywords": [
                 "DataRobot",
                 "PyTorch",
                 "TensorFlow",
                 "scikit-learn",
                 "Hadoop",
-                "Apache Flink"
+                "Apache Flink",
+                "Temporal",
+                "LlamaIndex"
             ]
         },
         {
@@ -353,12 +358,15 @@
                 "OAuth2",
                 "OpenID Connect",
                 "Auth0",
-                "Okta"
+                "Okta",
+                "Firebase",
+                "JWT & Cookie-based Auth"
             ]
         },
         {
             "name": "Testing & Code Quality",
             "keywords": [
+                "pytest",
                 "Jest",
                 "Mocha",
                 "Chai",
@@ -369,18 +377,18 @@
             ]
         },
         {
-            "name": "Cloud & DevOps",
+            "name": "DevOps & Observability",
             "keywords": [
                 "Git",
                 "Docker",
                 "Kubernetes",
                 "Terraform",
-                "Nginx",
                 "Jenkins",
-                "Bitbucket Pipelines",
                 "AWS",
                 "Google Cloud",
-                "Azure"
+                "Azure",
+                "DataDog",
+                "Langfuse"
             ]
         },
         {
