@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npx resume-cli serve --theme .",
     "test": "jest --coverage --verbose",
-    "updateTestSnapshots": "jest --updateSnapshot"
+    "updateTestSnapshots": "jest --updateSnapshot",
+    "exportMarkdown": "node scripts/jsonToMarkdown.js"
   },
   "repository": {
     "type": "git",

@@ -25,6 +25,11 @@
                 "network": "GitHub",
                 "username": "vanhumbeecka",
                 "url": "https://github.com/vanhumbeecka"
+            },
+            {
+                "network": "markdown",
+                "username": "View as Markdown",
+                "url": "https://andries.codemine.be/resume.md"
             }
         ]
     },
@@ -349,7 +354,8 @@
                 "Hadoop",
                 "Apache Flink",
                 "Temporal",
-                "LlamaIndex"
+                "LlamaIndex",
+                "Claude Code"
             ]
         },
         {
